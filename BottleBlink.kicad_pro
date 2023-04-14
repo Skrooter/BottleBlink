@@ -124,7 +124,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
@@ -200,7 +200,14 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "missing_unit|228600|1752600|00000000-0000-0000-0000-00005ffda2d7|00000000-0000-0000-0000-000000000000|||",
+      "missing_unit|355600|1752600|00000000-0000-0000-0000-00005ffff67a|00000000-0000-0000-0000-000000000000|||",
+      "missing_unit|482600|1752600|8a356b6f-0434-4baa-ac6e-862dca643b9d|00000000-0000-0000-0000-000000000000|||",
+      "missing_unit|609600|1752600|cf443f5e-6741-46c5-80bb-b35ac861d186|00000000-0000-0000-0000-000000000000|||",
+      "missing_unit|723900|1752600|6dd03cef-8d8a-4a63-a681-5bc2e7993d0d|00000000-0000-0000-0000-000000000000|||",
+      "missing_unit|850900|1752600|0e3e5d14-4b18-4795-9ad5-37986f9e9b18|00000000-0000-0000-0000-000000000000|||"
+    ],
     "meta": {
       "version": 0
     },
@@ -422,7 +429,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.381,
+        "clearance": 0.3556,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
